@@ -1,2 +1,2 @@
-# na2020-rating_profiles
+# Rating Profiles
 Rating profiles analysis at dating site
