@@ -9,9 +9,9 @@ We write all the code in Python with the usage of graph libraries (e.g. NetworkX
 ## Preprocessing
 
 ### Data Structure
-The data consisted of a directed network with total 135 000 nodes and 17 million edges, with each node (user) having also a categorical variable gender (Female, Male, Unknown). Each rating were given in the scale of 1-10 and the dataset's total size was 245 MBs and 2 MBs respectively.
 
-The data itself was quite clean and didn't have missing values. Only peculiarities were the "Unknown" value for gender categories and some of the ratings were for non-existent profiles.
+The data consist of Gender dataset and Rating dataset. The Gender dataset has 221 thousand records and contains information about users' gender that might be female, male or unknown. The Rating dataset has 17 million records about ratings between users (user A gives a rating to user B) and weight of the rating at scale 1-10 (10 is the best rating).
+Both datasets are quite clean and don't have any missing values. The only peculiarity is the "unknown" gender value, and some of the ratings are for non-existing profiles (user receiving the rating is not in the Gender dataset).
 
 ## Analysis
 
